@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43A7DB622303E858005A421C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A7DB612303E858005A421C /* AppDelegate.m */; };
+		43A7DB652303E858005A421C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A7DB642303E858005A421C /* ViewController.m */; };
+		43A7DB682303E858005A421C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A7DB662303E858005A421C /* Main.storyboard */; };
+		43A7DB6A2303E85A005A421C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A7DB692303E85A005A421C /* Assets.xcassets */; };
+		43A7DB6D2303E85A005A421C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A7DB6B2303E85A005A421C /* LaunchScreen.storyboard */; };
+		43A7DB702303E85A005A421C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A7DB6F2303E85A005A421C /* main.m */; };
+		43A7DB792303E896005A421C /* WJCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A7DB782303E896005A421C /* WJCameraController.m */; };
+		43A7DB7C23040961005A421C /* CaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A7DB7B23040961005A421C /* CaptureView.m */; };
+		43A7DB7F2304116B005A421C /* WJProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A7DB7E2304116B005A421C /* WJProgressView.m */; };
+		43A7DB8323055B40005A421C /* WJShootButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A7DB8223055B40005A421C /* WJShootButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43A7DB5D2303E858005A421C /* WJCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A7DB602303E858005A421C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43A7DB612303E858005A421C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43A7DB632303E858005A421C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43A7DB642303E858005A421C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43A7DB672303E858005A421C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43A7DB692303E85A005A421C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43A7DB6C2303E85A005A421C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43A7DB6E2303E85A005A421C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A7DB6F2303E85A005A421C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43A7DB772303E896005A421C /* WJCameraController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCameraController.h; sourceTree = "<group>"; };
+		43A7DB782303E896005A421C /* WJCameraController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCameraController.m; sourceTree = "<group>"; };
+		43A7DB7A23040961005A421C /* CaptureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptureView.h; sourceTree = "<group>"; };
+		43A7DB7B23040961005A421C /* CaptureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptureView.m; sourceTree = "<group>"; };
+		43A7DB7D2304116B005A421C /* WJProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJProgressView.h; sourceTree = "<group>"; };
+		43A7DB7E2304116B005A421C /* WJProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJProgressView.m; sourceTree = "<group>"; };
+		43A7DB8023054F15005A421C /* WJUtilDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJUtilDefine.h; sourceTree = "<group>"; };
+		43A7DB8123055B40005A421C /* WJShootButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJShootButton.h; sourceTree = "<group>"; };
+		43A7DB8223055B40005A421C /* WJShootButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJShootButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43A7DB5A2303E858005A421C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43A7DB542303E858005A421C = {
+			isa = PBXGroup;
+			children = (
+				43A7DB5F2303E858005A421C /* WJCamera */,
+				43A7DB5E2303E858005A421C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43A7DB5E2303E858005A421C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43A7DB5D2303E858005A421C /* WJCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43A7DB5F2303E858005A421C /* WJCamera */ = {
+			isa = PBXGroup;
+			children = (
+				43A7DB762303E872005A421C /* WJCamera */,
+				43A7DB602303E858005A421C /* AppDelegate.h */,
+				43A7DB612303E858005A421C /* AppDelegate.m */,
+				43A7DB632303E858005A421C /* ViewController.h */,
+				43A7DB642303E858005A421C /* ViewController.m */,
+				43A7DB662303E858005A421C /* Main.storyboard */,
+				43A7DB692303E85A005A421C /* Assets.xcassets */,
+				43A7DB6B2303E85A005A421C /* LaunchScreen.storyboard */,
+				43A7DB6E2303E85A005A421C /* Info.plist */,
+				43A7DB6F2303E85A005A421C /* main.m */,
+			);
+			path = WJCamera;
+			sourceTree = "<group>";
+		};
+		43A7DB762303E872005A421C /* WJCamera */ = {
+			isa = PBXGroup;
+			children = (
+				43A7DB772303E896005A421C /* WJCameraController.h */,
+				43A7DB782303E896005A421C /* WJCameraController.m */,
+				43A7DB7A23040961005A421C /* CaptureView.h */,
+				43A7DB7B23040961005A421C /* CaptureView.m */,
+				43A7DB8123055B40005A421C /* WJShootButton.h */,
+				43A7DB8223055B40005A421C /* WJShootButton.m */,
+				43A7DB8023054F15005A421C /* WJUtilDefine.h */,
+				43A7DB7D2304116B005A421C /* WJProgressView.h */,
+				43A7DB7E2304116B005A421C /* WJProgressView.m */,
+			);
+			path = WJCamera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43A7DB5C2303E858005A421C /* WJCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A7DB732303E85A005A421C /* Build configuration list for PBXNativeTarget "WJCamera" */;
+			buildPhases = (
+				43A7DB592303E858005A421C /* Sources */,
+				43A7DB5A2303E858005A421C /* Frameworks */,
+				43A7DB5B2303E858005A421C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJCamera;
+			productName = WJCamera;
+			productReference = 43A7DB5D2303E858005A421C /* WJCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43A7DB552303E858005A421C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = wangwenj;
+				TargetAttributes = {
+					43A7DB5C2303E858005A421C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 43A7DB582303E858005A421C /* Build configuration list for PBXProject "WJCamera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43A7DB542303E858005A421C;
+			productRefGroup = 43A7DB5E2303E858005A421C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43A7DB5C2303E858005A421C /* WJCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43A7DB5B2303E858005A421C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A7DB6D2303E85A005A421C /* LaunchScreen.storyboard in Resources */,
+				43A7DB6A2303E85A005A421C /* Assets.xcassets in Resources */,
+				43A7DB682303E858005A421C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43A7DB592303E858005A421C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A7DB652303E858005A421C /* ViewController.m in Sources */,
+				43A7DB792303E896005A421C /* WJCameraController.m in Sources */,
+				43A7DB7F2304116B005A421C /* WJProgressView.m in Sources */,
+				43A7DB7C23040961005A421C /* CaptureView.m in Sources */,
+				43A7DB702303E85A005A421C /* main.m in Sources */,
+				43A7DB8323055B40005A421C /* WJShootButton.m in Sources */,
+				43A7DB622303E858005A421C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43A7DB662303E858005A421C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43A7DB672303E858005A421C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43A7DB6B2303E85A005A421C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43A7DB6C2303E85A005A421C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43A7DB712303E85A005A421C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43A7DB722303E85A005A421C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43A7DB742303E85A005A421C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8TMYG3RBG;
+				INFOPLIST_FILE = WJCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scorpion.WJCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43A7DB752303E85A005A421C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8TMYG3RBG;
+				INFOPLIST_FILE = WJCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scorpion.WJCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43A7DB582303E858005A421C /* Build configuration list for PBXProject "WJCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A7DB712303E85A005A421C /* Debug */,
+				43A7DB722303E85A005A421C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43A7DB732303E85A005A421C /* Build configuration list for PBXNativeTarget "WJCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A7DB742303E85A005A421C /* Debug */,
+				43A7DB752303E85A005A421C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43A7DB552303E858005A421C /* Project object */;
+}
